@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+		body{
+			background-image: url(image/blue.jpg);
+			height: 500px; 
+			  background-position: center; 
+			  background-repeat: no-repeat; 
+			  background-size: cover;
+
+		}
+		.container{
+			width: 340px;
+			height: 400px;
+			background-color: rgba(199,119,188,0.9);
+			color:black;
+			top: 50%;
+			left: 50%;
+			box-sizing: border-box;
+			position: absolute;
+            transform: translate(-50% ,-50%);
+            padding: 70px 30px;
+
+		}
+		#border{
+			border:10px solid transparent;
+            padding: 15px;
+			border-image: url(image/border.png) 30 round;
+		}
+		.form-group label{
+				font-size: 19px;
+		        color: #fff;
+
+		}
+		.form-control{
+			width: 98%;
+		    margin-bottom: 20px;
+		    border-radius: 2px;
+		    border: white;
+		    padding: 4PX;
+		}
+		#button {
+                background-image: linear-gradient(to right, indigo,violet);
+			    border-radius: 4px;
+			    border-color: violet;
+			    width: 100%;
+			    padding: 4px;
+			    color: white;
+	</style>
+	<title>Reg</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+   <div class="container" id="border">
+   	   <div class="row">
+   	   	<h1 class="gradient">
+   	   		Log in
+   	   	</h1>
+            <form>
+            	<div class="form-group">
+            		<label for="email">Email Address</label>
+            		<input type="email" class="form-control" id="email" name=""><br>
+            		<label for="email">Password</label>
+            		<input type="email" class="form-control" id="email" name="">
+            		 <div class="form-check">
+				    <input type="checkbox"  id="exampleCheck1">
+				    <label for="exampleCheck1">Check me out</label>
+				  </div>
+            		<input id="button" type="submit" name="submit">
+            	</div>
+            </form>
+   	   </div>
+   </div>
+</body>
+</html>
