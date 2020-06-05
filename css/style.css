@@ -1,0 +1,231 @@
+/* Goole fonts lato & popins*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Playfair+Display:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h4,h5,h6 ,p{
+	font-family: 'Noto Serif', serif;
+}
+
+.container{
+	width: 1040px;
+	background: red;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-1{
+	width: 8.3333%;
+	float:left;
+}
+.col-md-2{
+	width: 16.6666%;
+	float:left;
+}
+.col-md-3{
+	width: 24.9999%;
+	float:left;
+}
+.col-md-4{
+	width: 33.3332%;
+	float:left;
+}
+.col-md-5{
+	width: 41.6665%;
+	float:left;
+}
+.col-md-6{
+	width: 49.9998%;
+	float:left;
+}
+.col-md-7{
+	width: 58.3331%;
+	float:left;
+}
+.col-md-8{
+	width: 66.6664%;
+	float:left;
+}
+.col-md-9{
+	width: 74.9997%;
+	float:left;
+}
+.col-md-10{
+	width: 83.333%;
+	float:left;
+}
+.col-md-11{
+	width: 91.6663%;
+	float:left;
+}
+.col-md-12{
+	width: 100%;
+	float:left;
+}
+.img-fluid{
+	width: 100%;
+}
+/*Header section css*/
+header{
+	padding: 10px 0;
+	width: 100%;
+	float: left;
+
+}
+.pro{
+	width: 100%;
+}
+.header-page ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 30px;
+	color: #777777;
+	text-transform: uppercase;
+}
+/*Banner image css*/
+.banner img{
+	margin-bottom: 100px;
+}
+/*portfolio part css*/
+.portfolio{
+	width: 100%;
+	height: 100%;
+
+}
+.portfolio h4{
+	color: #c7c1b6;
+	margin-left : 80px;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+.portfolio h2{
+	color:#777777;
+	margin-left: 80px;
+	margin-bottom: 41px;
+}
+.portfolio p{
+	color: #777777;
+	margin-left: 80px ;
+	text-align: left;
+	margin-bottom: 50px;
+}
+.portfolio-item img{
+	width: 421px;
+	height:280px; 
+    margin-left: 80px ;
+    margin-right: 0;
+}
+.portfolio-item h4{
+	color: #c7c1b6;
+	margin-left : 80px;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+.portfolio-item h2{
+	color:#777777;
+	margin-left: 80px;
+	margin-bottom: 35px;
+}
+/*Signup section css*/
+.signup{
+	width: 100%;
+	float: left;
+	background: #f0f0f0;
+	padding: 100px 0;
+    margin-bottom: 40px;
+}
+
+
+.signup h2{
+
+	color: #777777;
+    margin-bottom: 20px;
+    margin-left: 270px;
+}
+.siform-div{
+	margin:0 auto;
+	width: 500px;
+}
+.siform-box{
+	position: relative;
+}
+.siform-box .form-input{
+	border:none;
+	background: transparent;
+	font-size:18px; 
+	border-bottom: 2px solid #777777;
+	width: 100%;
+}
+.siform-box .fa{
+ position: absolute;
+top:-3px;
+right: 2px;
+font-size: 16px;
+
+}
+.form-group{
+	margin-top: 20px;
+}
+.btn-load{
+     
+    color: #777777;
+    background: transparent;
+    border: 1px solid #777777;
+    padding: 12px 32px;
+    border-radius: 3px;
+    margin-left: 500px;
+    margin-bottom: 121px;
+    margin-top: 120px;
+ 
+}
+.btn-load:hover{
+background: #f0f0f0;
+cursor: pointer;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	background:#f0f0f0; 
+	padding: 20px 0;
+}
+footer p{
+	color: #777777;
+	margin-top: 10px;
+}
+footer h2{
+	color: #202020:;
+}
+.footer-media {
+	float: right;
+	
+
+}
+.footer-media ul{
+	padding: 0;
+	margin:0;
+}
+.footer-media p{
+	display: inline;
+	color: #777777;
+	margin-right: 5px;
+}
+.footer-media ul li{
+	list-style: none;
+	display: inline;
+}
+.footer-media ul li .fa{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+    color: #777777;
+    line-height:40px;
+    
+}
